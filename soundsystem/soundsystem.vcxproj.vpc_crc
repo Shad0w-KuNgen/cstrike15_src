@@ -1,0 +1,12 @@
+[vpc crc file version 3]
+_.HOST_WIN32.HOST_WINDOWS.VS2015.WINDOWS_/vpcgame:csgo_
+PROJECT.soundsystem.GAME..PLATFORM.win32
+e0aa7894 soundsystem.vpc
+72148dde ..\vpc_scripts\source_dll_win32_base.vpc
+486b766d ..\vpc_scripts\version.vpc
+782314c0 ..\vpc_scripts\loadaddress.vpc
+78cde6b0 ..\vpc_scripts\source_dll_win32_debug.vpc
+8153c3a9 ..\vpc_scripts\definitions\win32_2010.def
+7ceba804 ..\vpc_scripts\source_dll_win32_release.vpc
+e9a1be45 ..\vpc_scripts\source_win32_base.vpc
+12020bcc ..\vpc_scripts\source_lowest_base.vpc

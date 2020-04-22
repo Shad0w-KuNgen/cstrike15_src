@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup >
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{922C6F41-C460-59B1-3A59-D4FA6DDC9C37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Link Libraries">
+      <UniqueIdentifier>{6D11200E-4206-7C82-1DCE-61EA5E3FE718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9A3C0498-7C60-1BDF-BDF7-06BDDE4E468F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VPC Scripts">
+      <UniqueIdentifier>{308191AE-A754-30DF-D5BD-5928E19D585F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup >
+    <Library Include="..\..\thirdparty\dxsdk\lib\dsound.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+    <Library Include="..\..\thirdparty\dxsdk\lib\dxguid.lib">
+      <Filter>Link Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup >
+    <ClInclude Include="..\..\public\soundsystem\audio_mix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\soundsystem\lowlevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup >
+    <ClCompile Include="..\..\common\debug_lib_check.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="device_dsound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="device_null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="device_xaudio2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup  />
+  <ItemGroup  />
+  <ItemGroup >
+    <None Include="..\..\vpc_scripts\dxsdk_macros.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="_vpc_\manifest_soundsystem_lowlevel\win32\manifest.txt">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\platform_dirs.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="soundsystem_lowlevel.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_lib_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_lib_win32_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_lib_win32_debug.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_lib_win32_release.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_lowest_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_video_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\source_win32_base.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+    <None Include="..\..\vpc_scripts\version.vpc">
+      <Filter>VPC Scripts</Filter>
+    </None>
+  </ItemGroup>
+</Project>
